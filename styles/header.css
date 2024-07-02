@@ -6,7 +6,8 @@ header {
 
 header>section:first-child {
     display: flex;
-    gap: 200px; /*Verificar o uso do gap*/
+    gap: 200px;
+    /*Verificar o uso do gap*/
 }
 
 .header-data,
@@ -33,12 +34,45 @@ header>section:first-child {
     margin-left: 10px;
 }
 
-hr{
+hr {
     border-color: #0c0505;
     max-width: 1160px;
 }
 
-header>nav{
+header>nav {
     display: flex;
-    margin-top: 20px;
+    margin-top: 29px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>.input-container>input {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+nav>.input-container>input::placeholder {
+    color: white;
+    font: normal normal bold 16px 'PlusJakartaSans_bold';
+}
+
+nav>.input-container>img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-logo>img {
+    width: 224px;
+    height: 46px;
+}
+
+.social-network {
+    display: flex;
+    gap: 12px;
+}
+
+.social-network>img {
+    width: 34px;
+    height: 34px;
 }

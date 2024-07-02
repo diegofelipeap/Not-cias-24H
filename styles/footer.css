@@ -3,3 +3,11 @@ footer {
     height: 390px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
 }
+
+footer>nav{
+    display: flex;
+}
+
+.editorial-anchor>div{
+    display: flex;
+}
