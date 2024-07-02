@@ -1,0 +1,12 @@
+header{
+    max-width: 1490px;
+    /*Verificar alocação do background e imagem principal*/
+    background: transparent linear-gradient(0deg, #1C1C1C00 0%, #1C1C1C80 100%) 0% 0% no-repeat padding-box;
+}
+header>section{
+    display: flex;
+}
+
+.header-data, .header-currency, .header-currency>div{
+    display: flex;
+}
