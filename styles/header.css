@@ -1,12 +1,44 @@
-header{
+header {
     max-width: 1490px;
     /*Verificar alocação do background e imagem principal*/
     background: transparent linear-gradient(0deg, #1C1C1C00 0%, #1C1C1C80 100%) 0% 0% no-repeat padding-box;
 }
-header>section{
+
+header>section:first-child {
+    display: flex;
+    gap: 200px; /*Verificar o uso do gap*/
+}
+
+.header-data,
+.header-currency,
+.header-currency>div {
     display: flex;
 }
 
-.header-data, .header-currency, .header-currency>div{
+.header-data {
+    gap: 50px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.header-currency {
+    gap: 32px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.header-currency>div>img {
+    width: 9px;
+    height: 7px;
+    margin-left: 10px;
+}
+
+hr{
+    border-color: #0c0505;
+    max-width: 1160px;
+}
+
+header>nav{
     display: flex;
+    margin-top: 20px;
 }
