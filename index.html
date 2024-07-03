@@ -74,11 +74,33 @@
     <!--Estilizar main e article-->
 
     <main>
-        <figure> <!--Baixar novamente a foto.-->
-            <img src="" alt="Foto principal">
+        <figure class="main-image"> <!--Baixar novamente a foto.-->
+            <img src="assets/MainPhoto.webp" alt="Foto principal">
             <figcaption>Foto: Divulgação</figcaption>
         </figure>
 
+        <!--Aside-->
+        <aside>
+            <!--Aqui ficará a seção de tags Explore-->
+            <section class="content-aside">
+                <div class="wrap-aside-content">
+                    <span>Explore</span>
+
+                    <ul>
+                        <!--aplicar tags(#)-->
+                    </ul>
+                </div>
+                <form method="post">
+                    <p>Newsletter</p>
+                    <fieldset>
+                        <legend>Receba nossas notícias diariamente em seu e-mail</legend>
+                        <input type="email" placeholder="Email: eufulano@gmail.com" id="e-mail">
+                        <button>Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+
+        </aside>
         <article class="main-article">
 
             <section>
@@ -99,63 +121,66 @@
     </main>
 
 
-    
+
     <footer>
-        <nav class="footer-navbar">
-            <div class="editorial-anchor">
-                <span class="edit-span">Editorias</span>
-                <div>
+        <!--Para manter acoplado os itens-->
+        <ul class="wrap-footer-content">
+            <nav class="footer-navbar">
+                <div class="editorial-anchor">
+                    <span class="edit-span">Editorias</span>
+                    <div>
+                        <ul>
+                            <li><a href="#e">Esportes</a></li>
+                            <li><a href="#e">Música</a></li>
+                            <li><a href="#e">Política</a></li>
+                            <li><a href="#e">Polícia</a></li>
+                            <li><a href="#e">Mundo</a></li>
+                            <li><a href="#e">Cultura</a></li>
+                            <li><a href="#e">Brasil</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#e">Famosos</a></li>
+                            <li><a href="#e">Cinema</a></li>
+                            <li><a href="#e">Economia</a></li>
+                            <li><a href="#e">Tecnologia</a></li>
+                            <li><a href="#e">Web Stories</a></li>
+                            <li><a href="#e">Gastronomia</a></li>
+                            <li><a href="#e">Saúde</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-anchor">
+                    <span>Links</span>
                     <ul>
-                        <li><a href="#e">Esportes</a></li>
-                        <li><a href="#e">Música</a></li>
-                        <li><a href="#e">Política</a></li>
-                        <li><a href="#e">Polícia</a></li>
-                        <li><a href="#e">Mundo</a></li>
-                        <li><a href="#e">Cultura</a></li>
-                        <li><a href="#e">Brasil</a></li>
+                        <li><a href="#e">Fale Conosco</a></li>
+                        <li><a href="#e">Anuncie</a></li>
+                        <li><a href="#e">SAC</a></li>
+                        <li><a href="#e">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="network-anchor">
+                    <span>Nossas Redes</span>
+                    <ul>
+                        <li><a href="#e">Instagram</a></li>
+                        <li><a href="#e">Twitter</a></li>
+                        <li><a href="#e">Facebook</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></div>
+            </nav>
+            <div class="caption">
+                <p>2024 - Noticia24h. Todos os direitos reservados.</p>
+                <div class="logo-mw-golab">
+                    <ul>
+                        <p>DESIGNED BY</p> <img src="assets/golab.svg" alt="logo da Golab" class="golab-logo">
                     </ul>
                     <ul>
-                        <li><a href="#e">Famosos</a></li>
-                        <li><a href="#e">Cinema</a></li>
-                        <li><a href="#e">Economia</a></li>
-                        <li><a href="#e">Tecnologia</a></li>
-                        <li><a href="#e">Web Stories</a></li>
-                        <li><a href="#e">Gastronomia</a></li>
-                        <li><a href="#e">Saúde</a></li>
+                        <p>DEVELOPED BY</p> <img src="assets/mundiware.svg" alt="logo da Mundiware" class="mw-logo">
                     </ul>
                 </div>
             </div>
-            <div class="link-anchor">
-                <span>Links</span>
-                <ul>
-                    <li><a href="#e">Fale Conosco</a></li>
-                    <li><a href="#e">Anuncie</a></li>
-                    <li><a href="#e">SAC</a></li>
-                    <li><a href="#e">Termos de Uso</a></li>
-                </ul>
-            </div>
-            <div class="network-anchor">
-                <span>Nossas Redes</span>
-                <ul>
-                    <li><a href="#e">Instagram</a></li>
-                    <li><a href="#e">Twitter</a></li>
-                    <li><a href="#e">Facebook</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></div>
-        </nav>
-        <div class="caption">
-            <p>2024 - Noticia24h. Todos os direitos reservados.</p>
-            <div class="logo-mw-golab">
-                <ul>
-                    <p>DESIGNED BY</p> <img src="assets/golab.svg" alt="logo da Golab" class="golab-logo">
-                </ul>
-                <ul>
-                    <p>DEVELOPED BY</p> <img src="assets/mundiware.svg" alt="logo da Mundiware" class="mw-logo">
-                </ul>
-            </div>
-        </div>
+        </ul>
     </footer>
 </body>
 
