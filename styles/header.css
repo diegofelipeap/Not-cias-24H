@@ -6,39 +6,41 @@ header {
 
 header>section:first-child {
     display: flex;
-    gap: 230px;
-    /*Verificar o uso do gap*/
+    justify-content: space-between;
     font: normal normal normal 14px 'PlusJakartaSans_regular';
     color: #fff;
+    padding: 9px 0;
+    gap: 250px;
+}
+
+.bold-span {
+    font-weight: bold;
 }
 
 .header-data,
 .header-currency,
 .header-currency>div {
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .header-data {
     gap: 50px;
-    margin-top: 9px;
-    margin-bottom: 9px;
 }
 
 .header-currency {
     gap: 32px;
-    margin-top: 9px;
-    margin-bottom: 9px;
 }
 
 .header-currency>div>img {
     width: 9px;
     height: 7px;
-    margin-left: 10px;
 }
 
 hr {
     border-color: #0c0505;
-    max-width: 1180px;
+    max-width: 1200px;
 }
 
 header>nav {
@@ -62,6 +64,9 @@ nav>.input-container>input::placeholder {
 nav>.input-container>img {
     width: 24px;
     height: 24px;
+    position: relative;
+    top: 5px;
+    right: 5px;
 }
 
 .header-logo>img {
@@ -80,21 +85,21 @@ nav>.input-container>img {
 }
 
 .breadcrumb {
-    display: flex;
+    text-align: center;
     margin-top: 22px;
 }
 
-.breadcrumb>div>a {
+.breadcrumb>a {
     text-decoration: none;
     color: #fff;
     font-size: 22px;
 }
 
-.breadcrumb>div>img {
+.breadcrumb>img {
     width: 24px;
     height: 28px;
 }
 
-.cinema{
+.cinema {
     font-weight: bold;
 }

@@ -1,36 +1,84 @@
 footer {
-    max-width: 1490px;
+    width: 1490px;
     height: 390px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
 }
 
-footer>nav{
+footer>nav {
     display: flex;
 }
 
-.editorial-anchor>div{
-    display: flex;
+.footer-navbar>div,
+figure {
+    margin-top: 38px;
+}
+.editorial-anchor>span,.link-anchor>span,.network-anchor>span{
+    color: #FFFFFF;
+    font: normal normal bold 27px 'PlusJakartaSans_bold';
 }
 
-.caption,.logo-mw-golab,.logo-mw-golab>div{
+.edit-span {
+    margin-left: 12px;
+}
+/* Aplicando position para alinhamento, passivo de mudanças. */
+.editorial-anchor>div {
+    display: grid;
+    margin-top: -5px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.link-anchor{
+    position: relative;
+    right: 120px;
+}
+
+.network-anchor{
+    position: relative;
+    right: 200px;
+}
+
+.caption,
+.logo-mw-golab,
+.logo-mw-golab>ul {
     display: flex;
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
 
-.logo-mw-golab{
+.logo-mw-golab {
     gap: 20px;
+    position: relative;
+    right: -115px;
 }
-.logo-mw-golab div{
+
+.logo-mw-golab ul {
     gap: 8px;
 }
 
-li{
+ul {
     list-style-type: none;
     margin-top: 14px;
 }
-li>a{
+
+li {
+    margin: 5px 0;
+}
+
+li>a {
     text-decoration: none;
     color: #FFFFFF;
+    opacity: 0.7;
+    font: normal normal normal 18px 'PlusJakartaSans_regular';
+}
+
+.caption {
+    margin-top: 50px;
+    font-family: 'PlusJakartaSans_regular';
+    display: flex;
+}
+.caption>p{
+    position: relative;
+    left: -100px;
 }

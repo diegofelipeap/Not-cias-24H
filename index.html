@@ -32,31 +32,31 @@
 </style>
 
 <body>
-
     <header>
         <section>
-            <div class="header-data">
+            <ul class="header-data">
                 <p>24 de Maio, 2024</p>
-                <p> <span class="">29° </span>23° | Penedo-AL</p>
-            </div>
-            <div class="header-currency">
+                <p> <span class="bold-span">29° </span>23° | Penedo-AL</p>
+            </ul>
+            <ul class="header-currency">
                 <div>
-                    <p>Dólar | 5,14</p> <img src="assets/subiu.svg" alt="Seta para cima">
+                    <p>Dólar | <span class="bold-span">5,14</span></p> <img src="assets/subiu.svg" alt="Seta para cima">
                 </div>
                 <div>
-                    <p>Euro | 5,58</p> <img src="assets/subiu.svg" alt="Seta para cima">
+                    <p>Euro | <span class="bold-span">5,58</span></p> <img src="assets/subiu.svg" alt="Seta para cima">
                 </div>
                 <div>
-                    <p>Peso | 0,06</p> <img src="assets/baixou.svg" alt="Seta para baixo">
+                    <p>Peso | <span class="bold-span">0,06</span></p> <img src="assets/baixou.svg"
+                        alt="Seta para baixo">
                 </div>
-            </div>
+            </ul>
         </section>
-        <hr />
+        <hr>
         <nav>
-            <div class="input-container">
+            <form class="input-container">
                 <img src="assets/lupa.svg" alt="ícone de lupa">
                 <input type="text" placeholder="Buscar">
-            </div>
+            </form>
             <figure class="header-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></figure>
             <figure class="social-network">
                 <img src="assets/x.svg" alt="ícone do X">
@@ -66,13 +66,12 @@
         </nav>
 
         <section class="breadcrumb">
-            <div>
-                <a href="#">Home/</a> <img src="assets/cinema.svg" alt="ícone de pipoca"> <a href="#" class="cinema">Cinema</a>
-            </div>
+            <a href="#">Home/</a> <img src="assets/cinema.svg" alt="ícone de pipoca"> <a href="#"
+                class="cinema">Cinema</a>
         </section>
     </header>
     <!--
-    
+
     Main - trabalhar após o footer e header completos.
 
     <main>
@@ -90,14 +89,12 @@
             </div>
         </article>
     </main>
-
     -->
 
-
     <footer>
-        <nav> <!--verificar estilização-->
+        <nav class="footer-navbar">
             <div class="editorial-anchor">
-                <p>Editoriais</p>
+                <span class="edit-span">Editorias</span>
                 <div>
                     <ul>
                         <li><a href="#e">Esportes</a></li>
@@ -120,7 +117,7 @@
                 </div>
             </div>
             <div class="link-anchor">
-                <p>Links</p>
+                <span>Links</span>
                 <ul>
                     <li><a href="#e">Fale Conosco</a></li>
                     <li><a href="#e">Anuncie</a></li>
@@ -128,8 +125,8 @@
                     <li><a href="#e">Termos de Uso</a></li>
                 </ul>
             </div>
-            <div>
-                <p>Nossas Redes</p>
+            <div class="network-anchor">
+                <span>Nossas Redes</span>
                 <ul>
                     <li><a href="#e">Instagram</a></li>
                     <li><a href="#e">Twitter</a></li>
@@ -137,17 +134,17 @@
                 </ul>
             </div>
 
-            <figure class="footer-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></figure>
+            <div class="footer-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></div>
         </nav>
         <div class="caption">
             <p>2024 - Noticia24h. Todos os direitos reservados.</p>
             <div class="logo-mw-golab">
-                <div>
+                <ul>
                     <p>DESIGNED BY</p> <img src="assets/golab.svg" alt="logo da Golab" class="golab-logo">
-                </div>
-                <div>
+                </ul>
+                <ul>
                     <p>DEVELOPED BY</p> <img src="assets/mundiware.svg" alt="logo da Mundiware" class="mw-logo">
-                </div>
+                </ul>
             </div>
         </div>
     </footer>
