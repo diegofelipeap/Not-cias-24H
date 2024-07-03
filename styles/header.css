@@ -6,8 +6,10 @@ header {
 
 header>section:first-child {
     display: flex;
-    gap: 200px;
+    gap: 230px;
     /*Verificar o uso do gap*/
+    font: normal normal normal 14px 'PlusJakartaSans_regular';
+    color: #fff;
 }
 
 .header-data,
@@ -36,7 +38,7 @@ header>section:first-child {
 
 hr {
     border-color: #0c0505;
-    max-width: 1160px;
+    max-width: 1180px;
 }
 
 header>nav {
@@ -75,4 +77,24 @@ nav>.input-container>img {
 .social-network>img {
     width: 34px;
     height: 34px;
+}
+
+.breadcrumb {
+    display: flex;
+    margin-top: 22px;
+}
+
+.breadcrumb>div>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.breadcrumb>div>img {
+    width: 24px;
+    height: 28px;
+}
+
+.cinema{
+    font-weight: bold;
 }
