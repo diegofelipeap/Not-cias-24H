@@ -1,0 +1,7 @@
+main {
+    max-width: 1440px;
+    display: grid;
+    grid-template-areas:
+        "container-box container-box"
+        "main-article grid-aside"
+}

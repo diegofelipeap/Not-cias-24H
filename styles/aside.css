@@ -49,3 +49,37 @@
 .back-top {
     background: #1C1C1C;
 }
+
+.grid-aside{
+    display: grid;
+    grid-area: grid-aside;
+}
+.wrap-aside-content {
+    width: 384px;
+    height: 384px;
+    list-style: none;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+}
+
+.wrap-aside-content>li {
+    margin-left: 20px;
+}
+
+.aside-content-title {
+    margin-top: 13px;
+    font: normal normal bold 48px 'PlusJakartaSans_bold';
+    letter-spacing: -0.96px;
+    color: #E51D35;
+    text-transform: capitalize;
+}
+
+.wrap-tags>a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font: normal bold 14px 'PlusJakartaSans_bold';
+    background: #1C1C1C00 0% 0% no-repeat padding-box;
+    border: 1px solid #E51D35;
+    border-radius: 4px;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/article.css">
     <link rel="stylesheet" href="/styles/aside.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
     <title>Notícia 24h</title>
 </head>
 <style>
@@ -103,15 +104,12 @@
                         <img src="assets/autor.webp" alt="foto de perfil">
                         <figcaption>Matheus Fiore</figcaption>
                     </figure>
+                    <data>| Publicado em 24 de Janeiro, 2024</data> <!--corrigir barra central -->
                 </li>
-
-                <li>Publicado em 24 de Janeiro, 2024</li>
             </ul>
         </article>
 
         <article class="main-article">
-
-            <!--Aplicar o conteúdo principal do article-->
 
             <p class="main-text">
                 Uma peculiar mistura entre real e ficção permeia o próximo grande filme de terror da produtora A24.
@@ -136,27 +134,27 @@
                     </a>
                     <a href="#">
                         <article>
-                            <button>ESTREIA</button>
-                            <p>Coringa 2: Lady Gaga comenta novamente sobre sua versão da Arlequina</p>
+                            <button id="debut">ESTREIA</button>
+                            <p>'Coringa 2' vai estrear no Festival de Veneza de 2024; veja mais filmes</p>
                         </article>
                     </a>
                     <a href="#">
                         <article>
                             <button>DESCUBRA</button>
-                            <p>Coringa 2: Lady Gaga comenta novamente sobre sua versão da Arlequina</p>
+                            <p>‘Coringa 2’: três enigmas cruciais que o trailer do filme esconde</p>
                         </article>
                     </a>
                 </div>
             </ul>
 
-            <p class="main-text">O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in Killer
+            <p class="opaque-text">O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in Killer
                 (Visitante Assassino) ou
                 Valley Intruder (Intruso do Vale), foi Richard Ramírez. Nascido no Texas em 1960 e filho caçula de um
                 casal de imigrantes mexicanos, ele teve infância e adolescência marcada pelo uso de drogas, abandonando
                 a escola e frequentando cemitérios.</p>
 
             <section class="caroussel-image">
-                <div>
+                <div class="top-caroussel">
                     <h5>Confira as imagens</h5>
                     <p>01 de 10</p>
                 </div>
@@ -165,10 +163,8 @@
                     <figcaption>Mia Goth e a Cantora Halsey em cenas do trailer | Foto: Divulgação</figcaption>
                 </figure>
             </section>
-
             <h4>MaXXXine</h4>
             <h5>O filme é inspirado em uma história real?</h5>
-
             <p class="main-text">A resposta para a pergunta acima pode ser um “mais ou menos”. A Maxine do filme é uma
                 atriz fictícia, que
                 parece repetir os passos de sua algoz de X: A Marca da Morte na busca pelo estrelado. Entretanto, nesse
@@ -178,7 +174,7 @@
 
             <div class="interaction-container1">
                 <ul>
-                    <li><img src="assets/download.webp" alt="ícone de download"></li>
+                    <li><button><img src="assets/download.webp" alt="ícone de download"></button></li>
                     <li>
                         <p>Salve</p>
                     </li>
@@ -191,7 +187,7 @@
                 </ul>
             </div>
 
-            <p class="main-text">O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in Killer
+            <p class="opaque-text">O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in Killer
                 (Visitante Assassino) ou
                 Valley Intruder (Intruso do Vale), foi Richard Ramírez. Nascido no Texas em 1960 e filho caçula de um
                 casal de imigrantes mexicanos, ele teve infância e adolescência marcada pelo uso de drogas, abandonando
@@ -199,8 +195,10 @@
 
             <div class="interaction-container2">
                 <ul>
-                    <li><button><img src="assets/ouça.svg" alt="ícone de ouvir"> Ouça</button></li>
-
+                    <li><button><img src="assets/ouça.svg" alt="ícone de ouvir"></button></li>
+                    <li>
+                        <p>Ouça</p>
+                    </li>
                 </ul>
                 <ul>
                     <li><span>Entrevista com Mia Goth</span></li>
@@ -210,13 +208,14 @@
                 </ul>
             </div>
 
-            <p class="main-text">Diagnosticado com epilepsia, ele teve seus primeiros contatos com a violência por meio
+            <p class="opaque-text">Diagnosticado com epilepsia, ele teve seus primeiros contatos com a violência por
+                meio
                 do primo, Miguel
                 Valles, um veterano da guerra do Vietnã. Entre histórias de abusos e torturas a soldados inimigos, o
                 homem conhecido como Mike foi citado por Ramírez como forte influência em seus anos de formação,
                 principalmente depois de ter assassinado a esposa, em um ato presenciado pelo futuro serial killer.</p>
 
-            <ul class="adress-container">
+            <ul class="address-container">
                 <span>Serviço</span>
                 <li>Exibição do filme: Maxxxine </li>
                 <li>Local: Cinema </li>
@@ -258,7 +257,7 @@
                         <img src="assets/raiva.svg" alt="ícone de raiva">
                     </div>
                     <p>THE LAST OF US</p>
-                    <p class="principal">Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada</p>
+                    <p class="principal">“MAXXXINE”: A24 libera pôster deslumbrante do filme com Mia Goth</p>
                 </article>
 
                 <article class="film-articles">
@@ -268,51 +267,52 @@
                         <img src="assets/raiva.svg" alt="ícone de raiva">
                     </div>
                     <p>THE LAST OF US</p>
-                    <p class="principal">Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada</p>
+                    <p class="principal">Disney anuncia data de estreia do novo filme de Star Wars</p>
                 </article>
             </section>
         </article>
+
+        <aside class="grid-aside"> <!--Aside-->
+            <section class="content-aside">
+                <ul class="wrap-aside-content">
+                    <li><span class="aside-content-title">Explore</span></li>
+
+                    <li class="wrap-tags"> <!--Aplicar wrap config-->
+                        <a href="#">#rockinrio</a>
+                        <a href="#">#enchentesnoRS</a>
+                        <a href="#">#netflix</a>
+                        <a href="#">#diogodefante</a>
+                        <a href="#">#eliana</a>
+                        <a href="#">#madmax</a>
+                        <a href="#">#katemidlleton</a>
+                        <a href="#">#renascer</a>
+                        <a href="#">#anitta</a>
+                        <a href="#">#ladygaga</a>
+                        <a href="#">#billieeilish</a>
+                        <a href="#">#maiara</a>
+                        <a href="#">#a24</a>
+                        <a href="#">#backtoblack</a>
+                        <a href="#">#maxxxine</a>
+                    </li>
+                </ul>
+                <form>
+                    <p>Newsletter</p>
+                    <fieldset>
+                        <legend>Receba nossas notícias diariamente em seu e-mail</legend>
+                        <input type="email" placeholder="Email: eufulano@gmail.com" id="e-mail">
+                        <button>Enviar</button>
+                    </fieldset>
+                </form>
+
+                <div class="aside-ad">
+                    <p>Publicidade</p>
+                    <img src="assets/ads.webp" alt="anúncio">
+                </div>
+            </section>
+
+        </aside>
     </main>
-    <aside> <!--Aside-->
-        <!--Aqui ficará a seção de tags Explore-->
-        <section class="content-aside">
-            <ul class="wrap-aside-content">
-                <li><span>Explore</span></li>
 
-                <li>
-                    <a href="#">#rockinrio</a>
-                    <a href="#">#enchentesnoRS</a>
-                    <a href="#">#netflix</a>
-                    <a href="#">#diogodefante</a>
-                    <a href="#">#eliana</a>
-                    <a href="#">#madmax</a>
-                    <a href="#">#katemidlleton</a>
-                    <a href="#">#renascer</a>
-                    <a href="#">#anitta</a>
-                    <a href="#">#ladygaga</a>
-                    <a href="#">#billieeilish</a>
-                    <a href="#">#maiara</a>
-                    <a href="#">#a24</a>
-                    <a href="#">#backtoblack</a>
-                    <a href="#">#maxxxine</a>
-                </li>
-            </ul>
-            <form>
-                <p>Newsletter</p>
-                <fieldset>
-                    <legend>Receba nossas notícias diariamente em seu e-mail</legend>
-                    <input type="email" placeholder="Email: eufulano@gmail.com" id="e-mail">
-                    <button>Enviar</button>
-                </fieldset>
-            </form>
-
-            <div class="aside-ad">
-                <p>Publicidade</p>
-                <img src="assets/ads.webp" alt="anúncio">
-            </div>
-        </section>
-
-    </aside>
     <footer>
         <!--Para manter acoplado os itens-->
         <ul class="wrap-footer-content">
