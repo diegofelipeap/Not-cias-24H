@@ -125,3 +125,10 @@ nav>form>img {
     height: 100vh;
     object-fit: cover;
 }
+
+.header-image>figcaption {
+    text-align: center;
+    font: normal normal normal 12px 'PlusJakartaSans_regular';
+    letter-spacing: 0px;
+    color: #575757;
+}
