@@ -57,6 +57,7 @@
                 <img src="assets/lupa.svg" alt="ícone de lupa">
                 <input type="text" placeholder="Buscar">
             </form>
+            <img src="assets/menu.webp" alt="botão burguer" class="btn-burger">
             <figure class="header-logo"><img src="assets/logo_noticia_24h.svg" alt="logo do site"></figure>
             <figure class="social-network">
                 <img src="assets/x.svg" alt="ícone do X">
@@ -69,55 +70,45 @@
             <a href="#">Home/</a> <img src="assets/cinema.svg" alt="ícone de pipoca"> <a href="#"
                 class="cinema">Cinema</a>
         </section>
-    </header>
-
-    <aside> <!--Aside-->
-        <!--Aqui ficará a seção de tags Explore-->
-        <section class="content-aside">
-            <div class="wrap-aside-content">
-                <span>Explore</span>
-
-                <ul>
-                    <!--aplicar tags(#)-->
-                </ul>
-            </div>
-            <form>
-                <p>Newsletter</p>
-                <fieldset>
-                    <legend>Receba nossas notícias diariamente em seu e-mail</legend>
-                    <input type="email" placeholder="Email: eufulano@gmail.com" id="e-mail">
-                    <button>Enviar</button>
-                </fieldset>
-            </form>
-
-            <div class="aside-ad">
-                <p>Publicidade</p>
-                <img src="assets/ads.webp" alt="anúncio">
-            </div>
-        </section>
-
-    </aside>
-    <main>
-        <figure class="main-image">
+        <figure class="header-image">
             <img src="assets/MainPhoto.webp" alt="Foto principal">
             <figcaption>Foto: Divulgação</figcaption>
         </figure>
+    </header>
+
+    <main>
+        <aside class="lateral-menu">
+            <menu>
+                <section class="left-box">
+                    <button><img src="assets/ouça.svg" alt="ícone de ouvir">Ouça</button>
+                    <a href="#"><img src="assets/share_facebook.svg" alt="ícone do Facebook"></a>
+                    <a href="#"><img src="assets/share_instagram.svg" alt="ícone do Instagram"></a>
+                    <a href="#"><img src="assets/share_x.svg" alt="ícone do X"></a>
+                    <a href="#"><img src="assets/share_whatsapp.svg" alt="ícone do Whatsapp"></a>
+                </section>
+                <section class="right-box">
+                    <button class="whrite-config"><img src="assets/modo_clean.svg" alt="ícone de modo claro"></button>
+                    <button class="back-top"><img src="assets/topo.svg" alt="ícone de seta para cima"></button>
+                </section>
+            </menu>
+        </aside>
+
+        <article class="container-box">
+            <p class="box-paragraph">A24</p>
+            <h1>MaXXXine | Novo filme de Mia Goth é baseado em uma história real?</h1>
+            <h2>Sequência direta do primeiro, longa será lançado após Pearl, que é um prelúdio</h2>
+            <ul class="container-author">
+               <li> <figure>
+                    <img src="assets/autor.webp" alt="foto de perfil">
+                    <figcaption>Matheus Fiore</figcaption>
+                </figure>
+            </li>
+
+                <li>Publicado em 24 de Janeiro, 2024</li>
+            </ul>
+        </article>
 
         <article class="main-article">
-
-            <section class="container-box">
-                <p>A24</p>
-                <h1>MaXXXine | Novo filme de Mia Goth é baseado em uma história real?</h1>
-                <h2>Sequência direta do primeiro, longa será lançado após Pearl, que é um prelúdio</h2>
-
-                <div class="container-author">
-                    <ul>
-                        <figure><img src="assets/autor.webp" alt="foto de perfil"></figure>
-                        <p>Matheus Fiore</p>
-                        <p>Publicado em 24 de Janeiro, 2024</p>
-                    </ul>
-                </div>
-            </section>
 
             <!--Aplicar o conteúdo principal do article-->
 
@@ -162,7 +153,10 @@
                 a escola e frequentando cemitérios.</p>
 
             <section class="caroussel-image">
-                <h5>Confira as imagens</h5>
+                <div>
+                    <h5>Confira as imagens</h5>
+                    <p>01 de 10</p>
+                </div>
                 <figure> <!-- aplicar as setas < e > com prop after e before no CSS.-->
                     <img src="assets/mia_goth_halsey.webp" alt="Foto da Mia Goth e cantora Halsey">
                     <figcaption>Mia Goth e a Cantora Halsey em cenas do trailer | Foto: Divulgação</figcaption>
@@ -200,10 +194,8 @@
 
             <div class="interaction-container2">
                 <ul>
-                    <li><img src="assets/ouça.svg" alt="ícone de ouvir"></li>
-                    <li>
-                        <p>Ouça</p>
-                    </li>
+                    <li><button><img src="assets/ouça.svg" alt="ícone de ouvir"> Ouça</button></li>
+
                 </ul>
                 <ul>
                     <li><span>Entrevista com Mia Goth</span></li>
@@ -275,7 +267,46 @@
             </section>
         </article>
     </main>
+    <aside> <!--Aside-->
+        <!--Aqui ficará a seção de tags Explore-->
+        <section class="content-aside">
+            <ul class="wrap-aside-content">
+                <li><span>Explore</span></li>
 
+                <li>
+                    <a href="#">#rockinrio</a>
+                    <a href="#">#enchentesnoRS</a>
+                    <a href="#">#netflix</a>
+                    <a href="#">#diogodefante</a>
+                    <a href="#">#eliana</a>
+                    <a href="#">#madmax</a>
+                    <a href="#">#katemidlleton</a>
+                    <a href="#">#renascer</a>
+                    <a href="#">#anitta</a>
+                    <a href="#">#ladygaga</a>
+                    <a href="#">#billieeilish</a>
+                    <a href="#">#maiara</a>
+                    <a href="#">#a24</a>
+                    <a href="#">#backtoblack</a>
+                    <a href="#">#maxxxine</a>
+                </li>
+            </ul>
+            <form>
+                <p>Newsletter</p>
+                <fieldset>
+                    <legend>Receba nossas notícias diariamente em seu e-mail</legend>
+                    <input type="email" placeholder="Email: eufulano@gmail.com" id="e-mail">
+                    <button>Enviar</button>
+                </fieldset>
+            </form>
+
+            <div class="aside-ad">
+                <p>Publicidade</p>
+                <img src="assets/ads.webp" alt="anúncio">
+            </div>
+        </section>
+
+    </aside>
     <footer>
         <!--Para manter acoplado os itens-->
         <ul class="wrap-footer-content">

@@ -1,0 +1,51 @@
+.lateral-menu>menu {
+    display: flex;
+}
+
+.left-box {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000001A;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 66px;
+    height: 306px;
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+}
+
+.left-box button {
+    border: none;
+    background: #E51D3500;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    right: 42px;
+    bottom: 20px;
+}
+
+.whrite-config,
+.back-top {
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: none;
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.back-top {
+    background: #1C1C1C;
+}

@@ -7,7 +7,8 @@ footer {
 footer>.wrap-footer-content>nav {
     display: flex;
 }
-.wrap-footer-content{
+
+.wrap-footer-content {
     max-width: 1490px;
 }
 
@@ -15,7 +16,10 @@ footer>.wrap-footer-content>nav {
 figure {
     margin-top: 38px;
 }
-.editorial-anchor>span,.link-anchor>span,.network-anchor>span{
+
+.editorial-anchor>span,
+.link-anchor>span,
+.network-anchor>span {
     color: #FFFFFF;
     font: normal normal bold 27px 'PlusJakartaSans_bold';
 }
@@ -23,6 +27,7 @@ figure {
 .edit-span {
     margin-left: 12px;
 }
+
 /* Aplicando position para alinhamento, passivo de mudanças. */
 .editorial-anchor>div {
     display: grid;
@@ -31,12 +36,12 @@ figure {
     gap: 40px;
 }
 
-.link-anchor{
+.link-anchor {
     position: relative;
     right: 120px;
 }
 
-.network-anchor{
+.network-anchor {
     position: relative;
     right: 200px;
 }
@@ -65,11 +70,15 @@ ul {
     margin-top: 14px;
 }
 
-li {
+.editorial-anchor li,
+.link-anchor li,
+.network-anchor li {
     margin: 5px 0;
 }
 
-li>a {
+.editorial-anchor li>a,
+.link-anchor li>a,
+.network-anchor li>a {
     text-decoration: none;
     color: #FFFFFF;
     opacity: 0.7;
@@ -81,7 +90,8 @@ li>a {
     font-family: 'PlusJakartaSans_regular';
     display: flex;
 }
-.caption>p{
+
+.caption>p {
     position: relative;
     left: -100px;
 }
