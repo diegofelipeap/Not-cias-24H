@@ -50,18 +50,18 @@ header>nav {
     justify-content: center;
 }
 
-nav>.input-container>input {
+nav>form>input {
     background: transparent;
     outline: none;
     border: none;
 }
 
-nav>.input-container>input::placeholder {
+nav>form>input::placeholder {
     color: white;
     font: normal normal bold 16px 'PlusJakartaSans_bold';
 }
 
-nav>.input-container>img {
+nav>form>img {
     width: 24px;
     height: 24px;
     position: relative;
@@ -72,11 +72,15 @@ nav>.input-container>img {
 .header-logo>img {
     width: 224px;
     height: 46px;
+    margin-bottom: 30px;
+    /*Verificar aplicação*/
 }
 
 .social-network {
     display: flex;
     gap: 12px;
+    margin-bottom: 30px;
+    /*Verificar aplicação*/
 }
 
 .social-network>img {
