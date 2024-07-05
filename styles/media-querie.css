@@ -21,8 +21,11 @@
     .left-box {
         display: flex;
         flex-direction: row;
-        width: 50%;
+        width: 55%;
         height: 87px;
+        margin-left: -40px;
+        margin-bottom: -20px;
+        z-index: 2;
     }
 
     header>nav {
@@ -38,7 +41,7 @@
         width: 208px;
         height: 42px;
         position: relative;
-        right: 45px;
+        right: 75px;
     }
 
     .btn-burger {
@@ -58,11 +61,23 @@
         margin-left: 0;
     }
 
+    .box-paragraph {
+        position: relative;
+        bottom: 25px;
+        right: 20px;
+    }
+
     h1 {
         width: 320px;
         height: 140px;
         font-size: 30px;
         text-align: left;
+        margin-left: -130px;
+    }
+
+    h2 {
+        width: 360px;
+        height: 43px;
     }
 
     .main-text,
@@ -70,7 +85,7 @@
         width: 320px;
         height: 331px;
         font: normal 18px;
-        margin: 20px;
+        margin-left: 40px;
     }
 
     .box-articles {
@@ -80,9 +95,15 @@
     }
 
     .row-articles {
+        margin-top: -20px;
         display: flex;
         flex-direction: column;
+    }
 
+    .caroussel-image {
+        width: 332px;
+        height: 396px;
+        margin-left: 40px;
     }
 
     .caroussel-image>figure>img {
@@ -90,36 +111,196 @@
         height: 300px;
     }
 
+    .caroussel-image>figure>figcaption {
+        width: 242px;
+        height: 31px;
+        text-align: center;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        bottom: 35px;
+    }
+
+    .right-arrow {
+        left: 285px;
+    }
+
+    .top-caroussel>h5 {
+        font-size: 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-caroussel>p {
+        margin-top: 17px;
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 26px;
+        margin-left: 40px;
+    }
+
+    h5 {
+        margin-left: 40px;
+        font-size: 22px;
+        width: 320px;
+        height: 54px;
+    }
+
     main {
         display: flex;
         flex-wrap: wrap;
     }
 
+    .interaction-container1 {
+        margin-top: 40px;
+    }
+
     .address-container {
         width: 320px;
         height: 330px;
+        margin-left: 40px;
+    }
 
+    .address-container>ul {
+        width: 284px;
+        height: 237px;
+    }
+
+    .address-container>ul>li {
+        font-size: 16px;
+        margin: 10px;
+        letter-spacing: 0.1px;
+    }
+
+    .mid-tags {
+        width: 328px;
+        height: 99px;
+        margin-top: 20px;
+        border-bottom: none;
+    }
+
+    .mid-tags>li {
+        position: relative;
+        top: 50px;
+        left: -110px;
+    }
+
+    .section-footer {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 20px;
+    }
+
+    .film-articles,
+    figure>img {
+        width: 320px;
+        height: 226px;
+    }
+
+    .emoji {
+        right: 90px;
+    }
+
+    .figure-content,
+    .figure-title {
+        position: relative;
+        bottom: 120px;
+    }
+
+    .figure-content {
+        width: 288px;
+        height: 71px;
     }
 
     .grid-aside {
         margin-top: 100px;
     }
 
+    .wrap-aside-content {
+        width: 320px;
+        height: 330px;
+        margin-left: 20px;
+    }
+
+    .perfil {
+        width: 40px;
+        height: 40px;
+    }
+
+    .newsletter {
+        width: 320px;
+        height: 250px;
+    }
+
+    .newsletter>p {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+    fieldset>input,
+    fieldset>button {
+        width: 288px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
     footer {
         width: 100%;
-        height: 673px;
+        height: 700px;
         display: flex;
         flex-wrap: wrap;
     }
 
+
+    .editorial-anchor {
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+
+    .edit-span {
+        position: relative;
+        left: -12px;
+    }
+
+    .link-anchor {
+        top: 340px;
+        left: -210px;
+    }
+
+    .network-anchor {
+        width: 250px;
+        top: 340px;
+        left: -150px;
+    }
+
     .footer-logo {
         position: relative;
-        left: -400px;
+        right: 540px;
         bottom: 20px;
+    }
+
+    .caption {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: 250px;
+        left: -140px;
+    }
+
+    .caption>p {
+        font-size: 12px;
     }
 
     .logo-mw-golab {
         position: relative;
-        right: 300px;
+        top: 50px;
+        right: 75px;
     }
 }
