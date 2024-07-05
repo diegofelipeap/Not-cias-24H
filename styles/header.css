@@ -1,6 +1,5 @@
 header {
     width: 100%;
-    /*Verificar alocação do background e imagem principal*/
     background: transparent linear-gradient(0deg, #1C1C1C00 0%, #1C1C1C80 100%) 0% 0% no-repeat padding-box;
 }
 
@@ -77,14 +76,13 @@ nav>form>img {
     width: 224px;
     height: 46px;
     margin-bottom: 30px;
-    /*Verificar aplicação*/
+    margin-left: -60px;
 }
 
 .social-network {
     display: flex;
     gap: 12px;
     margin-bottom: 30px;
-    /*Verificar aplicação*/
 }
 
 .social-network>img {
@@ -100,7 +98,6 @@ nav>form>img {
 .breadcrumb>a {
     text-decoration: none;
     color: #fff;
-    font-size: 22px;
 }
 
 .breadcrumb>img {
@@ -108,8 +105,12 @@ nav>form>img {
     height: 28px;
 }
 
+.home {
+    font: 22px 'PlusJakartaSans_regular';
+}
+
 .cinema {
-    font-weight: bold;
+    font: 22px 'PlusJakartaSans_bold';
 }
 
 .header-image {

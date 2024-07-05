@@ -50,10 +50,11 @@
     background: #1C1C1C;
 }
 
-.grid-aside{
+.grid-aside {
     display: grid;
     grid-area: grid-aside;
 }
+
 .wrap-aside-content {
     width: 384px;
     height: 384px;
@@ -63,23 +64,95 @@
     border-radius: 6px;
 }
 
-.wrap-aside-content>li {
-    margin-left: 20px;
-}
-
 .aside-content-title {
     margin-top: 13px;
+    margin-left: 20px;
     font: normal normal bold 48px 'PlusJakartaSans_bold';
     letter-spacing: -0.96px;
     color: #E51D35;
     text-transform: capitalize;
 }
 
-.wrap-tags>a {
+.wrap-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-tags>li>a {
     text-decoration: none;
     color: #1C1C1C;
     font: normal bold 14px 'PlusJakartaSans_bold';
     background: #1C1C1C00 0% 0% no-repeat padding-box;
     border: 1px solid #E51D35;
     border-radius: 4px;
+}
+
+.newsletter {
+    width: 384px;
+    height: 282px;
+    background: #E51D35 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}
+
+.newsletter>p {
+    font: 48px 'PlusJakartaSans_bold';
+    letter-spacing: -0.96px;
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset>legend {
+    width: 242px;
+    height: 47px;
+    font: 18px 'PlusJakartaSans_bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+fieldset>input {
+    width: 344px;
+    height: 40px;
+    background: #F3F3F5;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+fieldset>input::placeholder{
+    padding-left: 10px;
+}
+
+fieldset>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 40px;
+    background: #E51D3500;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.aside-ad{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside-ad>p{
+    font: 12px 'PlusJakartaSans_bold';
+    color: #22133F;
+    margin-bottom: 8px;
 }

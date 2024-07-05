@@ -68,7 +68,7 @@
         </nav>
 
         <section class="breadcrumb">
-            <a href="#">Home/</a> <img src="assets/cinema.svg" alt="ícone de pipoca"> <a href="#"
+            <a href="#" class="home">Home/</a> <img src="assets/cinema.svg" alt="ícone de pipoca"> <a href="#"
                 class="cinema">Cinema</a>
         </section>
         <figure class="header-image">
@@ -162,6 +162,8 @@
                     <img src="assets/mia_goth_halsey.webp" alt="Foto da Mia Goth e cantora Halsey">
                     <figcaption>Mia Goth e a Cantora Halsey em cenas do trailer | Foto: Divulgação</figcaption>
                 </figure>
+                <img class="left-arrow" src="assets/esquerda.svg" alt="ícone de seta para esquerda">
+                <img class="right-arrow" src="assets/direita.svg" alt="ícone de seta para direita">
             </section>
             <h4>MaXXXine</h4>
             <h5>O filme é inspirado em uma história real?</h5>
@@ -173,15 +175,14 @@
                 documental sobre ele.</p>
 
             <div class="interaction-container1">
-                <ul>
-                    <li><button><img src="assets/download.webp" alt="ícone de download"></button></li>
+                <ul class="interaction-ul">
+                    <button><img src="assets/download.webp" alt="ícone de download"></button>
                     <li>
                         <p>Salve</p>
                     </li>
                 </ul>
-                <ul>
-                    <li><span>Ficha técnica de Maxxxine</span></li>
-                    <li>
+                <ul class="second-ul">
+                    <li><span>Ficha técnica de Maxxxine</span>
                         <p>78kb.pdf</p>
                     </li>
                 </ul>
@@ -194,15 +195,14 @@
                 a escola e frequentando cemitérios.</p>
 
             <div class="interaction-container2">
-                <ul>
-                    <li><button><img src="assets/ouça.svg" alt="ícone de ouvir"></button></li>
+                <ul class="interaction-ul">
+                    <button><img src="assets/ouça.svg" alt="ícone de ouvir"></button>
                     <li>
                         <p>Ouça</p>
                     </li>
                 </ul>
-                <ul>
-                    <li><span>Entrevista com Mia Goth</span></li>
-                    <li>
+                <ul class="second-ul">
+                    <li><span>Entrevista com Mia Goth</span>
                         <p>22:31</p>
                     </li>
                 </ul>
@@ -217,16 +217,15 @@
 
             <ul class="address-container">
                 <span>Serviço</span>
-                <li>Exibição do filme: Maxxxine </li>
-                <li>Local: Cinema </li>
-                <li>Endereço: Rua Benedito Hipólito, 125 - Centro - Rio de Janeiro </li>
-                <li>Data: 18 a 27 de abril, às quintas, sextas e sábados</li>
-                <li>Horário: 19h</li>
-                <li>Ingressos: <a href="#" style="color: #0A73CD;">riocultura.eleventicket</a></li>
-                <!--style temporário-->
+                <ul>
+                    <li>Exibição do filme: Maxxxine </li>
+                    <li>Local: Cinema </li>
+                    <li>Endereço: Rua Benedito Hipólito, 125 - Centro - Rio de Janeiro </li>
+                    <li>Data: 18 a 27 de abril, às quintas, sextas e sábados</li>
+                    <li>Horário: 19h</li>
+                    <li>Ingressos: <a href="#" style="color: #0A73CD;">riocultura.eleventickets.com</a></li>
+                </ul>
             </ul>
-
-            <hr>
 
             <div class="mid-tags"> <!--aplicar border-top e bottom-->
                 <span>Tags</span>
@@ -235,19 +234,24 @@
                 <li><a href="#">#trend</a></li>
             </div>
 
-            <section>
-                <ul class="top-legend"><span>+Em</span> <img src="assets/cinema.svg" alt="ícone de pipoca">
-                    <p>Cinema</p>
-                </ul>
-
+            <ul class="top-legend"><span>+Em</span> <img src="assets/cinema.svg" alt="ícone de pipoca">
+                <p>Cinema</p>
+            </ul>
+            <section class="section-footer">
                 <article class="film-articles">
                     <div class="emoji">
                         <img src="assets/like.svg" alt="ícone de coração">
                         <img src="assets/riso.svg" alt="ícone de riso">
                         <img src="assets/raiva.svg" alt="ícone de raiva">
                     </div>
-                    <p>THE LAST OF US</p>
-                    <p class="principal">Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada</p>
+                    <ul>
+                        <figure>
+                            <img src="assets/pascalfoto.webp" alt="Foto do ator Pedro Pascal">
+                        </figure>
+                        <p class="figure-title">THE LAST OF US</p>
+                        <p class="figure-content">Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada
+                        </p>
+                    </ul>
                 </article>
 
                 <article class="film-articles">
@@ -256,8 +260,9 @@
                         <img src="assets/riso.svg" alt="ícone de riso">
                         <img src="assets/raiva.svg" alt="ícone de raiva">
                     </div>
-                    <p>THE LAST OF US</p>
-                    <p class="principal">“MAXXXINE”: A24 libera pôster deslumbrante do filme com Mia Goth</p>
+                    <figure><img src="assets/woman-card.webp" alt=""></figure>
+                    <p class="figure-title">THE LAST OF US</p>
+                    <p class="figure-content">“MAXXXINE”: A24 libera pôster deslumbrante do filme com Mia Goth</p>
                 </article>
 
                 <article class="film-articles">
@@ -266,8 +271,9 @@
                         <img src="assets/riso.svg" alt="ícone de riso">
                         <img src="assets/raiva.svg" alt="ícone de raiva">
                     </div>
-                    <p>THE LAST OF US</p>
-                    <p class="principal">Disney anuncia data de estreia do novo filme de Star Wars</p>
+                    <figure><img src="assets/foto.webp" alt=""></figure>
+                    <p class="figure-title">THE LAST OF US</p>
+                    <p class="figure-content">Disney anuncia data de estreia do novo filme de Star Wars</p>
                 </article>
             </section>
         </article>
@@ -275,27 +281,27 @@
         <aside class="grid-aside"> <!--Aside-->
             <section class="content-aside">
                 <ul class="wrap-aside-content">
-                    <li><span class="aside-content-title">Explore</span></li>
+                    <span class="aside-content-title">Explore</span>
 
-                    <li class="wrap-tags"> <!--Aplicar wrap config-->
-                        <a href="#">#rockinrio</a>
-                        <a href="#">#enchentesnoRS</a>
-                        <a href="#">#netflix</a>
-                        <a href="#">#diogodefante</a>
-                        <a href="#">#eliana</a>
-                        <a href="#">#madmax</a>
-                        <a href="#">#katemidlleton</a>
-                        <a href="#">#renascer</a>
-                        <a href="#">#anitta</a>
-                        <a href="#">#ladygaga</a>
-                        <a href="#">#billieeilish</a>
-                        <a href="#">#maiara</a>
-                        <a href="#">#a24</a>
-                        <a href="#">#backtoblack</a>
-                        <a href="#">#maxxxine</a>
-                    </li>
+                    <ul class="wrap-tags">
+                        <li><a href="#">#rockinrio</a></li>
+                        <li> <a href="#">#enchentesnoRS</a></li>
+                        <li><a href="#">#netflix</a></li>
+                        <li><a href="#">#diogodefante</a></li>
+                        <li><a href="#">#eliana</a></li>
+                        <li><a href="#">#madmax</a></li>
+                        <li><a href="#">#katemidlleton</a></li>
+                        <li><a href="#">#renascer</a></li>
+                        <li><a href="#">#anitta</a></li>
+                        <li><a href="#">#ladygaga</a></li>
+                        <li><a href="#">#billieeilish</a></li>
+                        <li><a href="#">#maiara</a></li>
+                        <li><a href="#">#a24</a></li>
+                        <li><a href="#">#backtoblack</a></li>
+                        <li><a href="#">#maxxxine</a></li>
+                    </ul>
                 </ul>
-                <form>
+                <form class="newsletter">
                     <p>Newsletter</p>
                     <fieldset>
                         <legend>Receba nossas notícias diariamente em seu e-mail</legend>

@@ -2,6 +2,7 @@ footer {
     width: 100%;
     height: 390px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
+    margin-top: 100px;
 }
 
 footer>.wrap-footer-content>nav {
@@ -28,7 +29,6 @@ figure {
     margin-left: 12px;
 }
 
-/* Aplicando position para alinhamento, passivo de mudanças. */
 .editorial-anchor>div {
     display: grid;
     margin-top: -5px;
